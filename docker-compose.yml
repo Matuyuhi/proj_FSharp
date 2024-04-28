@@ -1,0 +1,6 @@
+﻿services:
+  pro_fsharp:
+    image: pro_fsharp
+    build:
+      context: .
+      dockerfile: Dockerfile
